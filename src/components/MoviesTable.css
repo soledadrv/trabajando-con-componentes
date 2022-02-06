@@ -1,0 +1,8 @@
+div.movies-table {
+    width: 100%;
+    padding: 0px 25px;
+}
+
+div.movies-table table {
+    margin: 0px;
+}
