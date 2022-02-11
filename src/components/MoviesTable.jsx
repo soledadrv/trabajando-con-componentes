@@ -19,7 +19,7 @@ export default function MoviesTable() {
     }]
 
     return <>
-    <div class="movies-table table-responsive">
+    <div className="movies-table table-responsive">
         <table className="table table-bordered" >
             <thead>
                 <tr>

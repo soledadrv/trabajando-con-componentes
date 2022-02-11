@@ -11,8 +11,8 @@ export default function GenresInDB({genres}) {
             <div className="card-body">
                 <div className="row">
                     
-                    {genres.map(genre =>
-                        <div className="col-lg-6 mb-4">
+                    {genres.map((genre, i) =>
+                        <div key={genre + i}className="col-lg-6 mb-4">
                             <div className="card bg-dark text-white shadow">
                                 <div className="card-body">
                                     {genre}
